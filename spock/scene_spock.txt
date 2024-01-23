@@ -1,0 +1,25 @@
+camera:
+position 0 0 2
+orientation 0 1 0 0
+near 1
+far 10
+left -0.5
+right 0.5
+top 0.5
+bottom -0.5
+
+light 5 5 5 , 0 1.2 1.6 , 0
+light -5 5 -5 , 0 0.1 0.2 , 0
+
+objects:
+spock spock.obj
+
+spock
+ambient 0.0706087 0.0702313 0.0593185
+diffuse 0.282435 0.280926 0.237274
+specular 0.135776 0.135733 0.276305
+shininess 0.127273
+s 1 1 1
+r 1 0 0 -1.8
+r 0 1 0 2.8
+t 0.7 -0.2 -0.35
